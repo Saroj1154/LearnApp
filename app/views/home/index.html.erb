@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCoding</title>
+    <style>
+        .signout{
+            float: right;
+            border: 5cm;
+            background: #96ff33;
+            width: 100px;
+            height: 50px;
+            text-decoration: none;
+        }
+        .contents{
+            color: whitesmoke;
+        }
+        body{
+            background-color: black;
+            padding: auto;
+            animation: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+        }
+
+    </style>
+    
+</head>
+<body>
+    <% if current_user %>
+        <button class="signout"><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></button>
+    <% end %>
+    <br><br>
+    <h1 class="contents">This is an awesome site to learn coding..</h1>
+    <p class="contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi excepturi deleniti voluptate rem reprehenderit numquam eos architecto culpa mollitia molestias sit dolorum dignissimos praesentium sint dolores accusantium consectetur temporibus, aperiam exercitationem hic. Dolores impedit itaque sint? Sint illum totam repellendus necessitatibus praesentium explicabo. Architecto, accusamus illo ipsa nemo dolorum consectetur ullam nulla? Esse sequi id illum, dolore obcaecati numquam non repudiandae officiis asperiores amet, eligendi necessitatibus dicta recusandae magnam temporibus dolor quas ea? Modi autem, tempora distinctio assumenda ullam fugiat! Molestiae placeat reiciendis possimus officia nihil corrupti porro ea debitis iste, vero eum modi eveniet ducimus consectetur rem deserunt officiis doloribus perspiciatis sed aspernatur iusto dolor. Id consectetur a voluptate nam dignissimos doloremque repudiandae atque repellat fugit totam quidem iusto asperiores est, officiis in. Distinctio perferendis officiis veritatis ipsam officia! Vero id beatae corrupti distinctio numquam soluta quasi, exercitationem est animi sit eaque dolorum neque suscipit delectus in, odit corporis, nostrum et molestiae atque voluptatum. Voluptate asperiores commodi qui earum quibusdam vel sint nemo, quis esse, beatae laborum vero et distinctio ullam soluta eius. Quod rerum aliquam fugit soluta atque sed maxime veniam, illum, perferendis odio praesentium aliquid et placeat! Nemo autem quaerat cupiditate architecto reiciendis consectetur hic ipsa.</p>
+    <h4 class="contents">You might be wondering, What is this language?</h4>
+    <p class="contents">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo molestias tenetur tempore, repellat unde nisi similique laborum, nam nostrum esse vero harum repudiandae! Nam excepturi delectus pariatur dignissimos cum eligendi accusantium atque adipisci recusandae maiores inventore tempora quos doloremque incidunt, error sapiente quidem provident autem obcaecati consectetur illum debitis, dicta a. Necessitatibus deleniti molestiae soluta excepturi quibusdam quod beatae, saepe tenetur voluptate maxime itaque quia quasi vitae eveniet numquam reprehenderit eaque sequi recusandae error eos temporibus repudiandae amet doloribus deserunt. Commodi, quidem deserunt! Aperiam, recusandae in! Animi magnam quo voluptatem aspernatur consequuntur, iusto, cupiditate ipsam distinctio fugit quam voluptate sunt enim molestias fuga? Sed, deserunt voluptatem? Perspiciatis porro blanditiis voluptas alias exercitationem repellendus quis, voluptatibus, dolore eius eos earum deserunt odio non vitae! Dolorem vel in maiores at. Veritatis aspernatur dolores aut ex iste laborum modi corporis tenetur, illum, quaerat expedita omnis nesciunt vero maxime suscipit voluptates laudantium in? Perspiciatis cupiditate, voluptate iure quo sit quod. Est, hic sed quaerat doloremque, illum culpa rerum harum ex pariatur cum tempora ipsam in ab quae sint labore voluptatem dolorum corrupti eius? Rerum dolore doloribus dignissimos, dolorem sed fugiat soluta sequi odio harum, libero, iusto nulla quia ducimus nemo temporibus fuga quidem in?</p>
+    <p class="contents"><strong>Follow us on twitter to know more about lorem ipsums!!</strong></p>
+    <img src="" alt="NO image right now">
+    
+    
+</body>
+</html>
